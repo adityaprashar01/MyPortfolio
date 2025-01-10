@@ -2,7 +2,9 @@ import streamlit as st
 import webbrowser
 
 # Load Images
-profile_pic = "C:\\Users\\adity\\PycharmProjects\\Myportfolio\\pp.jpeg"
+# profile_pic = "C:\\Users\\adity\\PycharmProjects\\Myportfolio\\pp.jpeg"
+
+
 
 # Function to open links
 def open_link(url):
@@ -75,7 +77,7 @@ st.markdown(page_style, unsafe_allow_html=True)
 
 # Sidebar Section
 with st.sidebar:
-    st.image(profile_pic, width=250, caption="Aditya Prashar", use_container_width=True)
+    # st.image(profile_pic, width=250, caption="Aditya Prashar", use_container_width=True)
     st.title("Contact Me")
     st.write("📞 +91 7783858607")
     st.write("✉️ adityaprashar03@gmail.com")
